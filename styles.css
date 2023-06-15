@@ -1,0 +1,139 @@
+/* CSS styles for your landing page */
+/* Customize these styles to match your design preferences */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #141313;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #690c0c;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6d00;
+}
+
+.blog-segments {
+    padding: 50px;
+    text-align: center;
+}
+
+.blog-segment {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-segment h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-feeds, .upcoming-events, .jobs {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 11px 10px 2px 10px;
+    text-align: center;
+}
+.headings {
+    padding: 50px;
+    text-align: center;
+}
+
+.news-feeds h2, .upcoming-events h2, .jobs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.news-feed, .upcoming-event, .job-listing {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-feed h3, .upcoming-event h3, .job-listing h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons a{
+    color: #777;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
